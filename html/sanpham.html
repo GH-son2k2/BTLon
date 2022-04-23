@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/myStyle.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
+</head>
+<body>
+    <!--Header-->
+    <div class="container-md border-bottom">
+        <div>
+            <a href="trangchu.html"><img src="../img/logo.jpg" alt="" class="col-md-2"></a>
+            <input type="text" id="txtTK" placeholder="Tìm kiếm" size="50">
+            <button class="btn btn-success" id="tk">Tìm kiếm</button>
+            <nav class="navbar navbar-expand-lg float-right m-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item "><a href="dangky.html" class="nav-link" id="btnDN">Đăng nhập</a></li>
+                    <li class="nav-item ml-2"><a href="dangky.html" class="nav-link" id="btnDK">Đăng ký</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container border-bottom">
+        <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sản phẩm</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Chăm sóc da</a>
+                        <a href="#" class="dropdown-item">Trang điểm</a>
+                        <a href="#" class="dropdown-item">Dưỡng thể</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Hàng mới về</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Thương hiệu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Về Sheen Panache</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cửa hàng</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">The Spa</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!--Banner-->
+    <div class="row container p-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <img src="../img/sanphambanner.webp" alt="" width="450px" height="250px">
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-5">
+            <h1>Sản phẩm</h1>
+            <p>Tại MILEM bạn sẽ được:</p>
+            <p>Chia sẻ kiến thức chăm sóc da theo từng độ tuổi. <br>
+                Tư vấn quy trình dưỡng da phù hợp theo nhu cầu. <br>
+                Cam kết hàng chính hãng đã qua kiểm nghiệm và chọn lọc.</p>
+        </div>
+    </div>
+
+    <!--Nav-Danh mục-->
+    <div class="container">
+        <div class="row" id="danhmuc">
+            <div class="col-md-2">
+                Ưu tiên xem |
+            </div>
+            <div class="col-md-2">
+                <a href="#"><d>SẢN PHẨM MỚI</d></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><d>KHUYẾN MÃI</d></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><d>SẢN PHẨM MINI</d></a>
+            </div>
+            <div class="col-md-2">
+                <a href="#"><d>↑GIÁ THẤP</d></a>          
+            </div>
+            <div class="col-md-2">
+                <a href="#"><d>↓GIÁ CAO</d></a>
+            </div>
+        </div>
+    </div>
+
+    <!--Thân chính-->
+    <div class="container">
+        <div class="row p-3">
+            <div class="col-md-2">
+                <div id="list1" class="dropdown-check-list" tabindex="100">
+                    <span class="anchor">THƯƠNG HIỆU</span>
+                    <ul class="items">
+                        <li><input type="checkbox" />SK-II </li>
+                        <li><input type="checkbox" />PESTLO </li>
+                        <li><input type="checkbox" />LAMER </li>
+                        <li><input type="checkbox" />HATOMUGI </li>
+                        <li><input type="checkbox" />BIODERMA </li>
+                    </ul>
+                </div>
+                <div id="list1" class="dropdown-check-list" tabindex="100">
+                    <span class="anchor">MỨC GIÁ</span>
+                    <ul class="items">
+                        <li><input type="checkbox" />0K-500K </li>
+                        <li><input type="checkbox" />500K-1000K </li>
+                        <li><input type="checkbox" />1000K-6000K </li>
+                        <li><input type="checkbox" />6000K+ </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-10" id="sanpham">
+                <div class="row" >
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp11.webp" alt="" width="200px">
+                            <figcaption align="center">LA MER The Treatment Lotion Hydrating Mask - Mặt nạ tái tạo da <br>590,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp12.webp" alt="" width="200px">
+                            <figcaption align="center">HUXLEY Cleansing Oil; Deep Clean, Deep Moist - Dầu tẩy trang <br>960,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp13.png" alt="" width="200px">
+                            <figcaption align="center">HUXLEY Cleansing Water; Be Clean, Be Moist - Nước tẩy trang <br> 550,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp14.png" alt="" width="200px">
+                            <figcaption align="center">BIODERMA Solution Micellaire Demaquillante - Nước tẩy trang 500ml <br>500,000đ</figcaption>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp15.png" alt="" width="200px">
+                            <figcaption align="center">BIODERMA Solution Micellaire Nettoyante Purifiante - Nước tẩy trang 500ml <br> 490,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp16.png" alt="" width="200px">
+                            <figcaption align="center">HUXLEY Scrub Mask; Sweet Therapy - Tẩy da chết <br>580,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp17.png" alt="" width="200px">
+                            <figcaption align="center">SK-II Facial Treatment Gentle Cleanser - Sữa rửa mặt <br> 1,700,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp18.png" alt="" width="200px">
+                            <figcaption align="center">SK-II Genoptics Spot Essence - Tinh chất trị đốm nâu <br>2,950,000đ</figcaption>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp19.png" alt="" width="200px">
+                            <figcaption align="center">HUXLEY Cleansing Gel; Be Clean, Be Moist - Gel rửa mặt <br>500,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp20.png" alt="" width="200px">
+                            <figcaption align="center">HUXLEY Toner; Extract It - Nước hoa hồng dưỡng ẩm <br>700,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp21.PNG" alt="" width="200px">
+                            <figcaption align="center">SK-II Facial Treatment Clear Lotion - Nước hoa hồng làm sạch <br>2,150,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp22.png" alt="" width="200px">
+                            <figcaption align="center">SK-II Facial Treatment Essence 75ml - Nước thần <br>1,700,000đ</figcaption>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" >
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp23.png" alt="" width="200px">
+                            <figcaption align="center">SK-II LXP Ultimate Perfecting Essence - Nước thần cao cấp <br>6,800,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp24.png" alt="" width="200px">
+                            <figcaption align="center">SK-II SkinPower Essence - Tinh chất chống lão hoá <br>4,350,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp25.png" alt="" width="200px">
+                            <figcaption align="center">SK-II LXP Ultimate Perfecting Serum - Tinh chất dưỡng da hoàn thiện <br>6,800,000đ</figcaption>
+                        </a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#">
+                            <img src="../img/sp10.webp" alt="" width="200px">
+                            <figcaption align="center">FANCL Mild Cleansing Oil - Dầu tẩy trang <br> 650,000đ</figcaption>
+                        </a>
+                    </div>
+                </div>
+                <div class="row p-3" id="nexttrang">
+                    <div class="col-md-5"></div>
+                    <div class="col-md-1">
+                        <a href="#">←</a>
+                    </div>
+                    <div class="col-md-1">
+                        <d>5</d>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="#">→</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER-->
+    <div class="container">
+        <div class="row footer">
+            <div class="col-md-3 bg-light border-top">
+                <p>
+                    <h4>SHEEN</h4><br>
+                    <img src="../img/iconDC.jpg" alt="" width="5%">   256 Dương Quảng Hàm, P.15, Q.Gò Vấp, HCM <br> 
+                    <img src="../img/iconMail.jpg" alt="" width="5%">   Email: tai123@gmail.com <br>
+                    <img src="../img/icon DT.jpg" alt="" width="5%">   Hotline: 0393 860 424 <br>
+                    Giờ làm viêc: <br>
+                    Thứ 2 - Thứ 7: 7:00 - 21:00 <br>
+                    Chủ Nhật: 12:30 - 21:30
+                </p>
+            </div>
+            <div class="col-md-1 bg-light border-top"></div>
+            <div class="col-md-2 bg-light border-top"> 
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h4>MENU</h4><br>
+                        <li class="nav-item"><a href="#">Sản phẩm</a></li>
+                        <li class="nav-item"><a href="#">Hàng mới về</a></li>
+                        <li class="nav-item"><a href="#">Thương Hiệu</a></li>
+                        <li class="nav-item"><a href="#">Về Sheen Panache</a></li>
+                        <li class="nav-item"><a href="#">Cửa hàng</a></li>
+                        <li class="nav-item"><a href="#">The Spa</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-2 bg-light border-top"></div>
+            <div class="col-md-4 bg-light border-top">
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h4>HƯỚNG DẪN</h4><br>
+                        <li class="nav-item"><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li class="nav-item"><a href="#">Hướng dẫn thanh toán</a></li>
+                        <li class="nav-item"><a href="#">Hướng dẫn giao nhận</a></li>
+                        <li class="nav-item"><a href="#">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+
+    #danhmuc d{
+        color: silver;
+    }
+    #danhmuc d:hover{
+        border:  1px solid silver;
+        width: 200px;
+    }
+    #danhmuc a{
+        text-decoration: none;
+    }
+    #sanpham a{
+        text-decoration: none;
+    }
+    #sanpham figcaption{
+        color: black;
+    }
+    #nexttrang a{
+        text-decoration: none;
+        color: black;
+        width: max-content;
+        font-size: large;
+    }
+    #nexttrang a:hover{
+        background-color: silver;
+        border: 1px solid black
+    }
+</style>
+<script type="text/javascript">
+              
+    var checkList = document.getElementById('list1');
+    checkList.getElementsByClassName('anchor')[0].onclick = function (evt) {
+        if (checkList.classList.contains('visible'))
+            checkList.classList.remove('visible');
+        else
+            checkList.classList.add('visible');
+    }
+
+    checkList.onblur = function(evt) {
+        checkList.classList.remove('visible');
+    }
+</script>
+</html>

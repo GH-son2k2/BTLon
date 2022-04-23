@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites Map</title>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/myStyle.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <!-- <script src="../js/main.js"></script> -->
+
+</head>
+<body>
+    <!--Head-->
+    <div class="container-md border-bottom">
+        <div>
+            <a href="trangchu.html"><img src="../img/logo.jpg" alt="" class="col-md-2"></a>
+            <input type="text" id="txtTK" placeholder="Tìm kiếm" size="50">
+            <button class="btn btn-success" id="tk">Tìm kiếm</button>
+            <nav class="navbar navbar-expand-lg float-right m-4">
+                <ul class="navbar-nav">
+                    <li class="nav-item "><a href="dangky.html" class="nav-link" id="btnDN">Đăng nhập</a></li>
+                    <li class="nav-item ml-2"><a href="dangky.html" class="nav-link" id="btnDK">Đăng ký</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="container border-bottom">
+        <nav class="navbar navbar-expand-lg">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Sản phẩm</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Chăm sóc da</a>
+                        <a href="#" class="dropdown-item">Trang điểm</a>
+                        <a href="#" class="dropdown-item">Dưỡng thể</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Hàng mới về</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Thương hiệu</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Về Sheen Panache</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Cửa hàng</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">The Spa</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div><h2>Danh mục</h2></div>
+        </div>
+        <div class="row" id="danhmuc">
+            <div class="col-md-3">
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h5><a href="">Thương hiệu</a></h5>
+                        <li><a href="">SK-II</a></li>
+                        <li><a href="">Clinique</a></li>
+                        <li><a href="">Olay</a></li>
+                        <li><a href="">Dove</a></li>
+                    </ul>
+                </nav>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h5><a href="">Chăm sóc tóc</a></h5>
+                        <li><a href="">Trị gàu</a></li>
+                        <li><a href="">Phục hồi tế bào tóc</a></li>
+                        <li><a href="">Làm dày sợi tóc</a></li>
+                        <li><a href="">Chống rụng tóc</a></li>
+                        <li><a href="">Kích thích mọc tóc</a></li>
+                    </ul>
+                </nav>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h5><a href="">Sản phẩm rụng lông</a></h5>
+                        <li><a href="">Ngăn ngừa lông</a></li>
+                        <li><a href="">Làm chậm lại của lông</a></li>
+                        <li><a href="">Dừng sự phát triển của lông</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </nav>
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h5><a href="">Làm đẹp</a></h5>
+                        <li><a href="">Son</a></li>
+                        <li><a href="">Phấn phủ</a>|<a href="">Kem nền</a></li>
+                        <li><a href="">Mặt nạ</a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3">
+                <nav class="navbar">
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <h5><a href="">Sản phẩm vệ sinh và chăm sóc răng miệng</a></h5>
+                            <li><a href="">Song nướu</a></li>
+                            <li><a href="">Viêm lợi</a></li>
+                            <li><a href="">Răng bị xô lệch</a></li>
+                            <li><a href="">Viêm vòm miệng</a></li>
+                            <li><a href="">Chảy mủ quanh răng</a></li>
+                            <li><a href="">Loét miệng</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <h5><a href="">Sản phẩm mùi hương</a></h5>
+                            <li><a href="">Dừng quá trình ra mồ hôi</a></li>
+                            <li><a href="">Nước Hoa</a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </nav>
+                    
+                </nav>
+            </div>
+            <div class="col-md-4">
+                <nav class="navbar">
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <h5><a href="">Sản phẩm châm sóc da</a></h5>
+                            <li><a href="">Xoá sẹo</a></li>
+                            <li><a href="">Tác dụng tê</a></li>
+                            <li><a href="">Trị mụn</a></li>
+                            <li><a href="">Diệt nấm</a></li>
+                            <li><a href="">Giảm dị ứng</a></li>
+                            <li><a href="">Trị nám</a></li>
+                            <li><a href="">Trị sắc tố</a></li>
+                            <li><a href="">Làm sạch vết thương</a></li>
+                            <li><a href="">Trị cellulite</a></li>
+                            <li><a href="">Diệt virus</a></li>
+
+                        </ul>
+                    </nav>
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <h5><a href=""></a></h5>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </nav>
+                    <nav class="navbar">
+                        <ul class="navbar-nav">
+                            <h5><a href=""></a></h5>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </nav>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER-->
+    <div class="container">
+        <div class="row footer">
+            <div class="col-md-3 bg-light border-top">
+                <p>
+                    <h4>SHEEN</h4><br>
+                    <img src="../img/iconDC.jpg" alt="" width="5%">   256 Dương Quảng Hàm, P.15, Q.Gò Vấp, HCM <br> 
+                    <img src="../img/iconMail.jpg" alt="" width="5%">   Email: tai123@gmail.com <br>
+                    <img src="../img/icon DT.jpg" alt="" width="5%">   Hotline: 0393 860 424 <br>
+                    Giờ làm viêc: <br>
+                    Thứ 2 - Thứ 7: 7:00 - 21:00 <br>
+                    Chủ Nhật: 12:30 - 21:30
+                </p>
+            </div>
+            <div class="col-md-1 bg-light border-top"></div>
+            <div class="col-md-2 bg-light border-top"> 
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h4>MENU</h4><br>
+                        <li class="nav-item"><a href="#">Sản phẩm</a></li>
+                        <li class="nav-item"><a href="#">Hàng mới về</a></li>
+                        <li class="nav-item"><a href="#">Thương Hiệu</a></li>
+                        <li class="nav-item"><a href="#">Về Sheen Panache</a></li>
+                        <li class="nav-item"><a href="#">Cửa hàng</a></li>
+                        <li class="nav-item"><a href="#">The Spa</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-2 bg-light border-top"></div>
+            <div class="col-md-4 bg-light border-top">
+                <nav class="navbar">
+                    <ul class="navbar-nav">
+                        <h4>HƯỚNG DẪN</h4><br>
+                        <li class="nav-item"><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li class="nav-item"><a href="#">Hướng dẫn thanh toán</a></li>
+                        <li class="nav-item"><a href="#">Hướng dẫn giao nhận</a></li>
+                        <li class="nav-item"><a href="#">Điều khoản dịch vụ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+
+<style>
+    #danhmuc a{
+        text-decoration: none;
+    }
+    #danhmuc li a{
+        color: brown;
+    }
+    #danhmuc h5 a{
+        color: black;
+    }
+</style>
+</html>
